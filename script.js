@@ -48,8 +48,7 @@ document.addEventListener("DOMContentLoaded",
 			.addEventListener("click", function() {
 			scorePlayer1 = 0;
   			scorePlayer2 = 0;
-  			var x = document.querySelectorAll(".winner");
-  			console.log(x) ;
+  			document.querySelectorAll(".winner");
 			document.querySelector("#scorePlayer1").textContent  = scorePlayer1;
 			document.querySelector("#scorePlayer2").textContent  = scorePlayer2;
 
